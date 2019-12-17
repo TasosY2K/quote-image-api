@@ -1,0 +1,31 @@
+{
+  "name": "quote-image-api",
+  "version": "1.0.0",
+  "description": "An API that serves beautiful images with inspirational quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasosY2K/quote-image-api.git"
+  },
+  "keywords": [
+    "image",
+    "random",
+    "quote",
+    "api"
+  ],
+  "author": "TasosY2K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasosY2K/quote-image-api/issues"
+  },
+  "homepage": "https://github.com/TasosY2K/quote-image-api#readme",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-text-wrapper": "^0.10.2",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.5"
+  }
+}
